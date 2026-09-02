@@ -40,6 +40,7 @@ Illustrations and photos appear in topic categories **and** on `illustrations.ht
 1. Drop files in `images/inbox/`
 2. Set `source` and `attribution` in `images/inbox/manifest.json`
 3. Run `python3 scripts/process-intake.py` (or ask Cursor to *process the inbox*)
+4. Track progress in `images/inbox/GENERATION.md`
 
 Processed images are renamed, moved to `images/`, and added to `gallery-data.js`. Originals archive to `images/inbox/done/`.
 

@@ -2,4 +2,5 @@
 images/inbox/*
 !images/inbox/README.md
 !images/inbox/manifest.json
+!images/inbox/GENERATION.md
 images/inbox/done/
