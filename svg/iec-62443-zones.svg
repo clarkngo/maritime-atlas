@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="40" y="70" width="100" height="90" rx="6" fill="#b45309" opacity="0.2" stroke="#b45309"/><text x="90" y="95" font-size="8" fill="#0d1b26" text-anchor="middle">Level 0-1</text><text x="90" y="110" font-size="7" fill="#52697a" text-anchor="middle">Sensors/Actuators</text>
+  <rect x="160" y="70" width="100" height="90" rx="6" fill="#0e7490" opacity="0.2" stroke="#0e7490"/><text x="210" y="95" font-size="8" fill="#0d1b26" text-anchor="middle">Level 2</text><text x="210" y="110" font-size="7" fill="#52697a" text-anchor="middle">Control</text>
+  <rect x="280" y="70" width="80" height="90" rx="6" fill="#1565c0" opacity="0.2" stroke="#1565c0"/><text x="320" y="95" font-size="8" fill="#0d1b26" text-anchor="middle">Level 3+</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">IEC 62443 Zone/Conduit Model</text>
+</svg>

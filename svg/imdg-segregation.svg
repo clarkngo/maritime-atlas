@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="40" y="60" width="70" height="50" fill="#c0392b" opacity="0.5" stroke="#c0392b"/><text x="75" y="90" font-size="9" fill="#0d1b26" text-anchor="middle">Class 3</text>
+  <rect x="165" y="60" width="70" height="50" fill="#276221" opacity="0.3" stroke="#276221" stroke-dasharray="4"/><text x="200" y="90" font-size="9" fill="#0d1b26" text-anchor="middle">Segregation</text>
+  <rect x="290" y="60" width="70" height="50" fill="#b45309" opacity="0.5" stroke="#b45309"/><text x="325" y="90" font-size="9" fill="#0d1b26" text-anchor="middle">Class 5</text>
+  <text x="200" y="140" font-size="9" fill="#52697a" text-anchor="middle">Incompatible classes require separation per IMDG</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">IMDG Segregation Principle</text>
+</svg>

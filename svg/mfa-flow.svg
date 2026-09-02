@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="80" y="90" width="60" height="40" rx="6" fill="#52697a" opacity="0.4"/><text x="110" y="115" font-size="8" fill="#0d1b26" text-anchor="middle">User</text>
+  <rect x="170" y="90" width="60" height="40" rx="6" fill="#0e7490" opacity="0.5"/><text x="200" y="115" font-size="8" fill="#0d1b26" text-anchor="middle">MFA</text>
+  <rect x="260" y="90" width="60" height="40" rx="6" fill="#1565c0" opacity="0.5"/><text x="290" y="115" font-size="8" fill="#0d1b26" text-anchor="middle">OT Sys</text>
+  <line x1="140" y1="110" x2="170" y2="110" stroke="#0a1a2b" stroke-width="2"/><line x1="230" y1="110" x2="260" y2="110" stroke="#0a1a2b" stroke-width="2"/>
+  <text x="200" y="170" font-size="9" fill="#52697a" text-anchor="middle">Multi-factor gate before OT system access</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">MFA Access Flow Aboard</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="40" y="60" width="150" height="120" rx="8" fill="#1565c0" opacity="0.15" stroke="#1565c0"/><text x="115" y="85" font-size="10" fill="#0d1b26" text-anchor="middle" font-weight="bold">RBAC</text>
+  <text x="115" y="110" font-size="8" fill="#52697a" text-anchor="middle">Role → Permission</text>
+  <text x="115" y="130" font-size="8" fill="#52697a" text-anchor="middle">OOW · Engineer · Master</text>
+  <rect x="210" y="60" width="150" height="120" rx="8" fill="#0e7490" opacity="0.15" stroke="#0e7490"/><text x="285" y="85" font-size="10" fill="#0d1b26" text-anchor="middle" font-weight="bold">PAM</text>
+  <text x="285" y="110" font-size="8" fill="#52697a" text-anchor="middle">Privileged session</text>
+  <text x="285" y="130" font-size="8" fill="#52697a" text-anchor="middle">Vault · Audit · JIT</text>
+  <text x="200" y="220" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">RBAC vs PAM Aboard</text>
+</svg>

@@ -1,0 +1,5 @@
+# Raw image drops — not committed
+images/inbox/*
+!images/inbox/README.md
+!images/inbox/manifest.json
+images/inbox/done/

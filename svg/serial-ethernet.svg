@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="40" y="100" width="120" height="50" rx="6" fill="#b45309" opacity="0.4" stroke="#b45309"/><text x="100" y="120" font-size="9" fill="#0d1b26" text-anchor="middle">Legacy Serial Bus</text><text x="100" y="138" font-size="8" fill="#52697a" text-anchor="middle">RS-422 / RS-485</text>
+  <rect x="240" y="100" width="120" height="50" rx="6" fill="#1565c0" opacity="0.4" stroke="#1565c0"/><text x="300" y="120" font-size="9" fill="#0d1b26" text-anchor="middle">Ethernet LAN</text><text x="300" y="138" font-size="8" fill="#52697a" text-anchor="middle">Switched segments</text>
+  <line x1="160" y1="125" x2="240" y2="125" stroke="#0a1a2b" stroke-width="2"/><text x="200" y="115" font-size="8" fill="#c0392b" text-anchor="middle">Gateway</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">Serial-to-Ethernet Topology</text>
+</svg>

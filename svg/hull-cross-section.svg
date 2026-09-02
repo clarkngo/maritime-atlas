@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Midship hull cross-section">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4e8ef"/>
+      <stop offset="100%" stop-color="#b8d4de"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a4a5c"/>
+      <stop offset="50%" stop-color="#2a6a7c"/>
+      <stop offset="100%" stop-color="#1a4a5c"/>
+    </linearGradient>
+    <linearGradient id="hold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fa8b5"/>
+      <stop offset="100%" stop-color="#6d8794"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" fill="url(#sea)"/>
+  <!-- waterline -->
+  <line x1="30" y1="168" x2="450" y2="168" stroke="#0e7490" stroke-width="2" stroke-dasharray="6 4" opacity="0.7"/>
+  <text x="38" y="162" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#0e7490" font-weight="600">WL</text>
+  <!-- outer hull shell -->
+  <path d="M60 168 C60 168 62 210 95 228 C130 246 200 252 240 252 C280 252 350 246 385 228 C418 210 420 168 420 168
+           L420 148 C420 120 380 72 240 48 C100 72 60 120 60 148 Z"
+        fill="url(#shell)" stroke="#0a1a2b" stroke-width="2"/>
+  <!-- double bottom -->
+  <path d="M95 200 C130 218 200 224 240 224 C280 224 350 218 385 200
+           L385 188 C350 196 280 202 240 202 C200 202 130 196 95 188 Z"
+        fill="#0e7490" opacity="0.35" stroke="#0a1a2b" stroke-width="1.2"/>
+  <!-- cargo hold -->
+  <path d="M120 148 L120 188 C150 198 200 202 240 202 C280 202 330 198 360 188 L360 148
+           C330 138 280 132 240 132 C200 132 150 138 120 148 Z"
+        fill="url(#hold)" stroke="#0a1a2b" stroke-width="1.2"/>
+  <!-- deck -->
+  <line x1="100" y1="132" x2="380" y2="132" stroke="#0a1a2b" stroke-width="2.5"/>
+  <!-- centreline -->
+  <line x1="240" y1="48" x2="240" y2="252" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <!-- transverse frame hint -->
+  <path d="M175 132 Q175 175 195 210" fill="none" stroke="#0a1a2b" stroke-width="0.8" opacity="0.4"/>
+  <path d="M305 132 Q305 175 285 210" fill="none" stroke="#0a1a2b" stroke-width="0.8" opacity="0.4"/>
+  <!-- labels with leader lines -->
+  <line x1="240" y1="90" x2="240" y2="118" stroke="#0d1b26" stroke-width="1"/>
+  <text x="248" y="108" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#0d1b26" font-weight="600">Centreline / keel</text>
+  <line x1="155" y1="175" x2="115" y2="175" stroke="#0d1b26" stroke-width="1"/>
+  <text x="42" y="179" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#0d1b26">Double bottom tank</text>
+  <line x1="280" y1="158" x2="330" y2="148" stroke="#0d1b26" stroke-width="1"/>
+  <text x="336" y="152" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#0d1b26">Cargo hold</text>
+  <line x1="310" y1="132" x2="350" y2="115" stroke="#0d1b26" stroke-width="1"/>
+  <text x="356" y="119" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#0d1b26">Main deck</text>
+  <line x1="175" y1="218" x2="130" y2="235" stroke="#0d1b26" stroke-width="1"/>
+  <text x="48" y="239" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#0d1b26">Shell plating</text>
+  <text x="240" y="285" font-family="Segoe UI, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0a1a2b" text-anchor="middle">Midship Hull Cross-Section (schematic)</text>
+</svg>

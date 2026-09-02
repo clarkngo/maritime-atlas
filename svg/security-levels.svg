@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="50" y="80" width="90" height="40" rx="4" fill="#276221" opacity="0.4" stroke="#276221"/><text x="95" y="105" font-size="9" fill="#0d1b26" text-anchor="middle">SL 1 Normal</text>
+  <rect x="155" y="80" width="90" height="40" rx="4" fill="#b45309" opacity="0.4" stroke="#b45309"/><text x="200" y="105" font-size="9" fill="#0d1b26" text-anchor="middle">SL 2 Heightened</text>
+  <rect x="260" y="80" width="90" height="40" rx="4" fill="#c0392b" opacity="0.4" stroke="#c0392b"/><text x="305" y="105" font-size="9" fill="#0d1b26" text-anchor="middle">SL 3 Exceptional</text>
+  <text x="200" y="155" font-size="9" fill="#52697a" text-anchor="middle">ISPS Code security level escalation</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">Maritime Security Level Tiers</text>
+</svg>
