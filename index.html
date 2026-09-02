@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maritime Atlas | Visual Reference Gallery</title>
+<meta name="description" content="Browsable gallery of diagrams and illustrations for MOF-101 and MOT-101 maritime courses.">
+<link rel="stylesheet" href="css/atlas.css">
+</head>
+<body data-page="hub">
+<header>
+  <div class="header-inner">
+    <a class="header-brand" href="index.html">
+      <div class="brand-icon">MA</div>
+      <div class="brand-text">
+        <h1>Maritime Atlas</h1>
+        <p>Visual Reference Gallery</p>
+      </div>
+    </a>
+    <div class="header-right">
+      <a class="header-link" href="https://clarkngo.github.io/maritime-fundamentals/">MOF-101</a>
+      <a class="header-link" href="https://clarkngo.github.io/maritime-ot/">MOT-101</a>
+      <a class="author-pill" href="profile.html">&#128100; Clark Ngo</a>
+      <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">&#127769; Dark</button>
+    </div>
+  </div>
+</header><div class="hero">
+  <div class="hero-inner">
+    <h2>Maritime Atlas</h2>
+    <p>A browsable visual reference gallery covering both companion courses &mdash; Maritime Operations &amp; Industry Fundamentals (MOF-101) and Maritime Operational Technology Security (MOT-101). Diagrams organised by topic, not lesson number.</p>
+    <div class="hero-pills">
+      <span class="hero-pill">12 categories</span>
+      <span class="hero-pill">MOF-101 + MOT-101</span>
+      <span class="hero-pill">Schematics + illustrations</span>
+    </div>
+  </div>
+</div>
+<main>
+  <div class="safeguards-banner">
+    <h3>Safeguards apply to every diagram</h3>
+    <p>No real vessel, company, or network data appears in any illustration. See the full <a href="safeguards.html">Safeguards &amp; Attribution</a> policy.</p>
+  </div>
+
+  <div class="filter-bar">
+    <div class="filter-row">
+      <label for="search-input">Search</label>
+      <input type="search" id="search-input" class="search-input" placeholder="Search diagrams by title or topic&hellip;" aria-label="Search diagrams">
+    </div>
+    <div class="filter-row">
+      <label>Visual type</label>
+      <div class="filter-chips">
+        <button class="filter-chip active" data-visual="all">All types</button>
+        <button class="filter-chip" data-visual="schematic">Schematics</button>
+        <button class="filter-chip" data-visual="raster">Illustrations &amp; photos</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <label>Course</label>
+      <div class="filter-chips">
+        <button class="filter-chip active" data-course="all">All courses</button>
+        <button class="filter-chip" data-course="mof">MOF-101</button>
+        <button class="filter-chip" data-course="mot">MOT-101</button>
+      </div>
+      <span class="filter-results" id="filter-results"></span>
+    </div>
+  </div>
+
+  <div class="illustrations-banner">
+    <div>
+      <h3>Illustrations &amp; photos</h3>
+      <p>Human-reviewed AI illustrations and licensed photos live in the same topic categories as schematics — tagged and credited separately. <span id="hub-illustration-count">0</span> published so far.</p>
+    </div>
+    <a class="illus-link" href="illustrations.html">View all illustrations &#8594;</a>
+  </div>
+
+  <p class="section-label">Browse by Category</p>
+  <div id="category-grid" class="cat-grid">
+    <a class="cat-card" href="category-vessel-types.html" data-category="vessel-types">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Vessel Types & Anatomy</h3>
+        <p class="cat-card-desc">Hull cross-sections, general arrangement, vessel-type silhouettes</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="vessel-types">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-ports-terminals.html" data-category="ports-terminals">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Ports & Terminal Operations</h3>
+        <p class="cat-card-desc">Landlord port model, container/bulk/liquid terminal layouts</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="ports-terminals">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-bridge-navigation.html" data-category="bridge-navigation">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Bridge & Navigation Systems</h3>
+        <p class="cat-card-desc">IBS architecture, bridge team positions, ECDIS/radar/AIS relationships</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="bridge-navigation">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-cargo-stowage.html" data-category="cargo-stowage">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Cargo & Stowage</h3>
+        <p class="cat-card-desc">Stowage plans, IMDG segregation, bill-of-lading document flow</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="cargo-stowage">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-engine-propulsion.html" data-category="engine-propulsion">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Engine Room, Propulsion & Ballast</h3>
+        <p class="cat-card-desc">Propulsion chain, watertight subdivision, ballast systems</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="engine-propulsion">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-network-protocol.html" data-category="network-protocol">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Network & Protocol Architecture</h3>
+        <p class="cat-card-desc">IT/OT zone diagrams, NMEA/Modbus/OPC UA stacks, serial-vs-Ethernet topology</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="network-protocol">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-industry-commercial.html" data-category="industry-commercial">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Industry & Commercial Structure</h3>
+        <p class="cat-card-desc">Owner/manager/charterer maps, voyage-commissioning flow, chartering timelines</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="industry-commercial">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-regulatory-governance.html" data-category="regulatory-governance">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Regulatory & Governance Ecosystem</h3>
+        <p class="cat-card-desc">IMO structure, flag state/class society/PSC map, convention family tree</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="regulatory-governance">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-threats-incidents.html" data-category="threats-incidents">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Threats & Incidents</h3>
+        <p class="cat-card-desc">GPS/AIS spoofing, Swiss cheese model, ransomware attack-path diagrams</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="threats-incidents">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-access-control.html" data-category="access-control">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Access Control & Identity</h3>
+        <p class="cat-card-desc">RBAC/PAM diagrams, shared-bridge-console risk illustrations</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="access-control">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-safety-emergency.html" data-category="safety-emergency">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Safety & Emergency Systems</h3>
+        <p class="cat-card-desc">Life-saving appliances, security-level tiers, incident case-study infographics</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="safety-emergency">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+    <a class="cat-card" href="category-frameworks-standards.html" data-category="frameworks-standards">
+      <div class="cat-card-accent"></div>
+      <div class="cat-card-body">
+        <h3 class="cat-card-title">Frameworks & Standards Comparison</h3>
+        <p class="cat-card-desc">IACS UR E26/E27, IMO MSC-FAL.1, NIST SP 800-82, IEC 62443, MITRE ATT&CK for ICS</p>
+      </div>
+      <div class="cat-card-meta">
+        <span class="cat-count" data-cat-count="frameworks-standards">0</span> diagrams
+        <span>&#8594;</span>
+      </div>
+    </a>
+  </div>
+
+  <div id="search-results" class="gallery-grid" style="display:none"></div>
+</main>
+<footer>
+  Maritime Atlas &nbsp;|&nbsp; Visual reference companion to
+  <a href="https://clarkngo.github.io/maritime-fundamentals/">MOF-101</a> and
+  <a href="https://clarkngo.github.io/maritime-ot/">MOT-101</a><br>
+  Diagrams by <a href="profile.html">Clark Ngo</a> &nbsp;|&nbsp;
+  <a href="safeguards.html">Safeguards &amp; Attribution</a><br>
+  Educational use only. No real vessel, company, or network data in any diagram.
+</footer><script src="js/categories.js"></script>
+<script src="js/gallery-data.js"></script>
+<script src="js/atlas.js"></script>
+</body>
+</html>

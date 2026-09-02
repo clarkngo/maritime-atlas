@@ -1,0 +1,252 @@
+{
+  "entries": [
+    {
+      "source": "",
+      "id": "container-terminal-aerial",
+      "category": "ports-terminals",
+      "title": "Container Terminal \u2014 Aerial View",
+      "caption": "Bird's-eye view of a generic container port with quay cranes, a vessel alongside, and yard stacks.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 3
+        }
+      ],
+      "alt": "Aerial view of container terminal"
+    },
+    {
+      "source": "",
+      "id": "container-ship-profile",
+      "category": "vessel-types",
+      "title": "Container Ship \u2014 Side Profile",
+      "caption": "Side elevation of a generic large container ship with stacked boxes on deck and accommodation aft.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 1
+        }
+      ],
+      "alt": "Container ship side profile"
+    },
+    {
+      "source": "",
+      "id": "bulk-carrier-profile",
+      "category": "vessel-types",
+      "title": "Bulk Carrier \u2014 Side Profile",
+      "caption": "Generic bulk carrier with open cargo hatches and aft accommodation, shown at sea.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 1
+        }
+      ],
+      "alt": "Bulk carrier side profile"
+    },
+    {
+      "source": "",
+      "id": "oil-tanker-profile",
+      "category": "vessel-types",
+      "title": "Oil Tanker \u2014 Side Profile",
+      "caption": "Generic tanker with continuous main deck, midship superstructure, and deck piping.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 1
+        }
+      ],
+      "alt": "Oil tanker side profile"
+    },
+    {
+      "source": "",
+      "id": "bridge-interior-modern",
+      "category": "bridge-navigation",
+      "title": "Modern Ship Bridge Interior",
+      "caption": "Generic integrated bridge workstation with ECDIS chart display and radar PPI.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 4
+        },
+        {
+          "course": "mot",
+          "lesson": 3
+        }
+      ],
+      "alt": "Modern ship bridge interior"
+    },
+    {
+      "source": "",
+      "id": "bridge-team-conning",
+      "category": "bridge-navigation",
+      "title": "Bridge Team at Conning",
+      "caption": "Officers on a generic ship bridge using ECDIS and radar during a collaborative watch.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 4
+        }
+      ],
+      "alt": "Bridge team at conning station"
+    },
+    {
+      "source": "",
+      "id": "sts-crane-operations",
+      "category": "ports-terminals",
+      "title": "STS Crane Operations",
+      "caption": "Ship-to-shore gantry crane lifting a container at a generic berth.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 3
+        }
+      ],
+      "alt": "STS crane loading container"
+    },
+    {
+      "source": "",
+      "id": "dry-bulk-terminal",
+      "category": "ports-terminals",
+      "title": "Dry Bulk Terminal",
+      "caption": "Generic bulk export terminal with grab crane, conveyor, and silo storage.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 3
+        }
+      ],
+      "alt": "Dry bulk terminal"
+    },
+    {
+      "source": "",
+      "id": "liquid-bulk-terminal",
+      "category": "ports-terminals",
+      "title": "Liquid Bulk Terminal",
+      "caption": "Generic tank farm with loading arms connected to a tanker at a jetty.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 3
+        }
+      ],
+      "alt": "Liquid bulk terminal"
+    },
+    {
+      "source": "",
+      "id": "engine-room-overview",
+      "category": "engine-propulsion",
+      "title": "Engine Room Overview",
+      "caption": "Wide view of a generic ship machinery space with main engine, gearbox, and propulsion line.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 6
+        }
+      ],
+      "alt": "Ship engine room overview"
+    },
+    {
+      "source": "",
+      "id": "ballast-control-station",
+      "category": "engine-propulsion",
+      "title": "Ballast Control Station",
+      "caption": "Engine control room console showing ballast system diagram, tank levels, and pump status.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 6
+        }
+      ],
+      "alt": "Ballast control station"
+    },
+    {
+      "source": "",
+      "id": "gps-spoofing-concept",
+      "category": "threats-incidents",
+      "title": "GPS Spoofing \u2014 Concept Illustration",
+      "caption": "Educational scene showing a vessel's true position diverging from a falsified GNSS report.",
+      "attribution": "",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mot",
+          "lesson": 6
+        }
+      ],
+      "alt": "GPS spoofing concept"
+    },
+    {
+      "source": "",
+      "id": "shipboard-ot-zones",
+      "category": "network-protocol",
+      "title": "Shipboard OT Security Zones",
+      "caption": "Color-coded zones aboard a generic vessel showing IT, OT, and DMZ network segmentation.",
+      "attribution": "",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mot",
+          "lesson": 2
+        },
+        {
+          "course": "mot",
+          "lesson": 4
+        }
+      ],
+      "alt": "Shipboard OT security zones"
+    },
+    {
+      "source": "",
+      "id": "lifeboat-muster-drill",
+      "category": "safety-emergency",
+      "title": "Lifeboat Muster Drill",
+      "caption": "Crew in life jackets mustering at enclosed lifeboat davits during a safety drill.",
+      "attribution": "",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 11
+        }
+      ],
+      "alt": "Lifeboat muster drill"
+    },
+    {
+      "source": "",
+      "id": "ship-comms-room",
+      "category": "network-protocol",
+      "title": "Ship Communications Room",
+      "caption": "Generic shipboard server and network rack room with switches and cable management.",
+      "attribution": "",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mot",
+          "lesson": 4
+        }
+      ],
+      "alt": "Ship communications room"
+    }
+  ]
+}

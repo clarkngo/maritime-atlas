@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="50" y="70" width="300" height="20" rx="3" fill="#1565c0" opacity="0.4"/><text x="200" y="84" font-size="8" fill="#0d1b26" text-anchor="middle">Trigger event</text>
+  <rect x="50" y="100" width="300" height="20" rx="3" fill="#0e7490" opacity="0.4"/><text x="200" y="114" font-size="8" fill="#0d1b26" text-anchor="middle">System response</text>
+  <rect x="50" y="130" width="300" height="20" rx="3" fill="#c0392b" opacity="0.4"/><text x="200" y="144" font-size="8" fill="#0d1b26" text-anchor="middle">Consequence / lesson</text>
+  <text x="200" y="175" font-size="9" fill="#52697a" text-anchor="middle">Synthesized case-study structure (no real vessel data)</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">Incident Case-Study Infographic</text>
+</svg>

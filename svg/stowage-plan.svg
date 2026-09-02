@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Container stowage plan bay view">
+  <defs>
+    <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8eef2"/>
+      <stop offset="100%" stop-color="#d0dce4"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" fill="url(#deck)"/>
+
+  <!-- bay outline -->
+  <rect x="80" y="50" width="320" height="200" fill="#f8fafb" stroke="#0a1a2b" stroke-width="2" rx="4"/>
+  <text x="240" y="42" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="700" fill="#0a1a2b" text-anchor="middle">Bay 04 — Looking Aft</text>
+
+  <!-- cell grid 6 wide x 4 tiers -->
+  <g stroke="#0a1a2b" stroke-width="0.8">
+    <!-- tier 04 (top) -->
+    <rect x="100" y="70" width="42" height="28" fill="#c0392b" opacity="0.85"/><text x="121" y="88" font-size="8" fill="#fff" text-anchor="middle">040182</text>
+    <rect x="146" y="70" width="42" height="28" fill="#1565c0" opacity="0.85"/><text x="167" y="88" font-size="8" fill="#fff" text-anchor="middle">040284</text>
+    <rect x="192" y="70" width="42" height="28" fill="#276221" opacity="0.85"/><text x="213" y="88" font-size="8" fill="#fff" text-anchor="middle">040386</text>
+    <rect x="238" y="70" width="42" height="28" fill="#b45309" opacity="0.85"/><text x="259" y="88" font-size="8" fill="#fff" text-anchor="middle">040488</text>
+    <rect x="284" y="70" width="42" height="28" fill="#0e7490" opacity="0.85"/><text x="305" y="88" font-size="8" fill="#fff" text-anchor="middle">040582</text>
+    <rect x="330" y="70" width="42" height="28" fill="#6a1b9a" opacity="0.85"/><text x="351" y="88" font-size="8" fill="#fff" text-anchor="middle">040684</text>
+    <!-- tier 03 -->
+    <rect x="100" y="102" width="42" height="28" fill="#1565c0" opacity="0.85"/><text x="121" y="120" font-size="8" fill="#fff" text-anchor="middle">030182</text>
+    <rect x="146" y="102" width="42" height="28" fill="#276221" opacity="0.85"/><text x="167" y="120" font-size="8" fill="#fff" text-anchor="middle">030284</text>
+    <rect x="192" y="102" width="42" height="28" fill="#c0392b" opacity="0.85"/><text x="213" y="120" font-size="8" fill="#fff" text-anchor="middle">030386</text>
+    <rect x="238" y="102" width="42" height="28" fill="#0e7490" opacity="0.85"/><text x="259" y="120" font-size="8" fill="#fff" text-anchor="middle">030488</text>
+    <rect x="284" y="102" width="42" height="28" fill="#b45309" opacity="0.85"/><text x="305" y="120" font-size="8" fill="#fff" text-anchor="middle">030582</text>
+    <rect x="330" y="102" width="42" height="28" fill="#1565c0" opacity="0.85"/><text x="351" y="120" font-size="8" fill="#fff" text-anchor="middle">030684</text>
+    <!-- tier 02 -->
+    <rect x="100" y="134" width="42" height="28" fill="#276221" opacity="0.85"/><text x="121" y="152" font-size="8" fill="#fff" text-anchor="middle">020182</text>
+    <rect x="146" y="134" width="42" height="28" fill="#b45309" opacity="0.85"/><text x="167" y="152" font-size="8" fill="#fff" text-anchor="middle">020284</text>
+    <rect x="192" y="134" width="42" height="28" fill="#0e7490" opacity="0.85"/><text x="213" y="152" font-size="8" fill="#fff" text-anchor="middle">020386</text>
+    <rect x="238" y="134" width="42" height="28" fill="#6a1b9a" opacity="0.85"/><text x="259" y="152" font-size="8" fill="#fff" text-anchor="middle">020488</text>
+    <rect x="284" y="134" width="42" height="28" fill="#c0392b" opacity="0.85"/><text x="305" y="152" font-size="8" fill="#fff" text-anchor="middle">020582</text>
+    <rect x="330" y="134" width="42" height="28" fill="#276221" opacity="0.85"/><text x="351" y="152" font-size="8" fill="#fff" text-anchor="middle">020684</text>
+    <!-- tier 01 (bottom) -->
+    <rect x="100" y="166" width="42" height="28" fill="#0e7490" opacity="0.85"/><text x="121" y="184" font-size="8" fill="#fff" text-anchor="middle">010182</text>
+    <rect x="146" y="166" width="42" height="28" fill="#6a1b9a" opacity="0.85"/><text x="167" y="184" font-size="8" fill="#fff" text-anchor="middle">010284</text>
+    <rect x="192" y="166" width="42" height="28" fill="#1565c0" opacity="0.85"/><text x="213" y="184" font-size="8" fill="#fff" text-anchor="middle">010386</text>
+    <rect x="238" y="166" width="42" height="28" fill="#276221" opacity="0.85"/><text x="259" y="184" font-size="8" fill="#fff" text-anchor="middle">010488</text>
+    <rect x="284" y="166" width="42" height="28" fill="#b45309" opacity="0.85"/><text x="305" y="184" font-size="8" fill="#fff" text-anchor="middle">010582</text>
+    <rect x="330" y="166" width="42" height="28" fill="#c0392b" opacity="0.85"/><text x="351" y="184" font-size="8" fill="#fff" text-anchor="middle">010684</text>
+  </g>
+
+  <!-- row / tier labels -->
+  <text x="68" y="88" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#52697a" text-anchor="end">T4</text>
+  <text x="68" y="120" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#52697a" text-anchor="end">T3</text>
+  <text x="68" y="152" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#52697a" text-anchor="end">T2</text>
+  <text x="68" y="184" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#52697a" text-anchor="end">T1</text>
+  <text x="121" y="210" font-family="Segoe UI, system-ui, sans-serif" font-size="8" fill="#52697a" text-anchor="middle">Row 01</text>
+  <text x="259" y="210" font-family="Segoe UI, system-ui, sans-serif" font-size="8" fill="#52697a" text-anchor="middle">Row 04</text>
+  <text x="351" y="210" font-family="Segoe UI, system-ui, sans-serif" font-size="8" fill="#52697a" text-anchor="middle">Row 06</text>
+
+  <!-- legend -->
+  <rect x="80" y="225" width="12" height="12" fill="#c0392b"/><text x="98" y="235" font-size="8" fill="#52697a">20' GP</text>
+  <rect x="140" y="225" width="12" height="12" fill="#1565c0"/><text x="158" y="235" font-size="8" fill="#52697a">40' GP</text>
+  <rect x="200" y="225" width="12" height="12" fill="#276221"/><text x="218" y="235" font-size="8" fill="#52697a">Reefer</text>
+  <rect x="260" y="225" width="12" height="12" fill="#b45309"/><text x="278" y="235" font-size="8" fill="#52697a">DG class</text>
+
+  <text x="240" y="285" font-family="Segoe UI, system-ui, sans-serif" font-size="14" font-weight="700" fill="#0a1a2b" text-anchor="middle">Container Stowage Plan — Bay View (schematic)</text>
+</svg>

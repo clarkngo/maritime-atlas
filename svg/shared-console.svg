@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="120" y="80" width="160" height="80" rx="8" fill="#ccdce4" stroke="#0a1a2b" stroke-width="2"/>
+  <text x="200" y="110" font-size="10" fill="#0d1b26" text-anchor="middle">Shared Bridge Console</text>
+  <text x="200" y="130" font-size="8" fill="#c0392b" text-anchor="middle">⚠ Multiple user profiles · USB risk</text>
+  <text x="200" y="150" font-size="8" fill="#52697a" text-anchor="middle">No individual accountability</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">Shared Console Risk Illustration</text>
+</svg>

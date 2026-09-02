@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <rect x="30" y="80" width="80" height="40" rx="6" fill="#1565c0" opacity="0.4"/><text x="70" y="105" font-size="9" fill="#0d1b26" text-anchor="middle">Shipper</text>
+  <rect x="160" y="80" width="80" height="40" rx="6" fill="#0e7490" opacity="0.4"/><text x="200" y="105" font-size="9" fill="#0d1b26" text-anchor="middle">Carrier</text>
+  <rect x="290" y="80" width="80" height="40" rx="6" fill="#6a1b9a" opacity="0.4"/><text x="330" y="105" font-size="9" fill="#0d1b26" text-anchor="middle">Consignee</text>
+  <line x1="110" y1="100" x2="160" y2="100" stroke="#0a1a2b" stroke-width="2"/><polygon points="160,100 152,96 152,104" fill="#0a1a2b"/>
+  <line x1="240" y1="100" x2="290" y2="100" stroke="#0a1a2b" stroke-width="2"/><polygon points="290,100 282,96 282,104" fill="#0a1a2b"/>
+  <text x="200" y="145" font-size="9" fill="#52697a" text-anchor="middle">Bill of Lading as document of title</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">Bill of Lading Document Flow</text>
+</svg>

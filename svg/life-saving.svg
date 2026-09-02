@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img">
+  <rect width="400" height="250" fill="#eaf3f6"/>
+  <ellipse cx="120" cy="130" rx="50" ry="25" fill="#c0392b" opacity="0.4" stroke="#c0392b"/><text x="120" y="135" font-size="8" fill="#0d1b26" text-anchor="middle">Lifeboat</text>
+  <rect x="220" y="110" width="60" height="40" rx="4" fill="#0e7490" opacity="0.4" stroke="#0e7490"/><text x="250" y="135" font-size="8" fill="#0d1b26" text-anchor="middle">Raft</text>
+  <circle cx="330" cy="130" r="20" fill="#b45309" opacity="0.4" stroke="#b45309"/><text x="330" y="135" font-size="7" fill="#0d1b26" text-anchor="middle">EPIRB</text>
+  <text x="200" y="210" font-size="13" font-weight="bold" fill="#0a1a2b" text-anchor="middle">Life-Saving Appliances</text>
+</svg>
