@@ -1,5 +1,7 @@
 # Image Inbox
 
+**Generation tracker:** see [`GENERATION.md`](GENERATION.md) for what's done, what's left, and copy-paste Gemini prompts.
+
 Drop AI-generated illustrations and photos here, then process them into the gallery.
 
 ## Quick start
@@ -14,7 +16,9 @@ Drop AI-generated illustrations and photos here, then process them into the gall
    python3 scripts/process-intake.py
    ```
 
-4. **Review** — processed files move to `images/` with clean names and appear in `gallery-data.js`. Originals are archived to `images/inbox/done/`.
+4. **Update tracker** — move the row in [`GENERATION.md`](GENERATION.md) from *Still to generate* to *Published* (or ask Cursor to update it after processing).
+
+5. **Review** — processed files move to `images/` with clean names and appear in `gallery-data.js`. Originals are archived to `images/inbox/done/`.
 
 ## Manifest fields
 
