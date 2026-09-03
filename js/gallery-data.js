@@ -1080,5 +1080,268 @@ var ATLAS_ENTRIES = [
     },
     "visualType": "illustration",
     "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "ballast-control-station",
+    "category": "engine-propulsion",
+    "title": "Ballast Control Station",
+    "caption": "Closed engine control room with ballast mimic panel, tank level indicators, and emergency stop.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 6
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/ballast-control-station.png",
+      "alt": "Ballast control station in engine control room"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "container-hold-cutaway",
+    "category": "cargo-stowage",
+    "title": "Container Hold Cutaway",
+    "caption": "Cross-section of a container ship cargo hold showing cell guides, stacked containers, and ballast tanks below.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 5
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/container-hold-cutaway.png",
+      "alt": "Container hold cutaway"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "imdg-containers-deck",
+    "category": "cargo-stowage",
+    "title": "IMDG Containers on Deck",
+    "caption": "Segregated dangerous-goods containers on deck with hazmat separation zone markings.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 5
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/imdg-containers-deck.png",
+      "alt": "IMDG segregated containers on deck"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "bill-of-lading-desk",
+    "category": "cargo-stowage",
+    "title": "Bill of Lading Desk",
+    "caption": "Shipping documents on a desk \u2014 bill of lading form, stamp pad, and generic letterhead.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 5
+      },
+      {
+        "course": "mof",
+        "lesson": 10
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/bill-of-lading-desk.png",
+      "alt": "Bill of lading document desk"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "watertight-door-passage",
+    "category": "engine-propulsion",
+    "title": "Watertight Door Passage",
+    "caption": "Ship corridor with a heavy watertight bulkhead door, dogs/latches, and color-coded piping overhead.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 6
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/watertight-door-passage.png",
+      "alt": "Watertight door in ship passage"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "bridge-mast-antennas",
+    "category": "network-protocol",
+    "title": "Bridge Mast & Antennas",
+    "caption": "Ship bridge wings and mast with GPS, AIS, VHF aerials, and radar scanner labeled.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 4
+      },
+      {
+        "course": "mot",
+        "lesson": 3
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/bridge-mast-antennas.png",
+      "alt": "Bridge mast and navigation antennas"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "serial-wiring-machinery",
+    "category": "network-protocol",
+    "title": "Serial Wiring in Machinery Space",
+    "caption": "RS-485 junction box and shielded serial cabling alongside Ethernet in a machinery space.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 4
+      },
+      {
+        "course": "mot",
+        "lesson": 5
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/serial-wiring-machinery.png",
+      "alt": "Serial wiring in machinery space"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "chartering-office-meeting",
+    "category": "industry-commercial",
+    "title": "Chartering Office Meeting",
+    "caption": "Shipping professionals reviewing a voyage estimate on a screen with route map.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 10
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/chartering-office-meeting.png",
+      "alt": "Chartering office meeting"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "port-agent-harbor-launch",
+    "category": "industry-commercial",
+    "title": "Port Agent Harbor Launch",
+    "caption": "Harbor launch approaching a cargo ship at anchor with agent carrying a briefcase.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 10
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/port-agent-harbor-launch.png",
+      "alt": "Port agent harbor launch"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "ransomware-phishing-path",
+    "category": "threats-incidents",
+    "title": "Ransomware Phishing Path",
+    "caption": "Phishing email on laptop leading through ship network diagram to locked engine control monitor.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 6
+      },
+      {
+        "course": "mot",
+        "lesson": 7
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/ransomware-phishing-path.png",
+      "alt": "Ransomware phishing attack path"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "shared-bridge-workstation",
+    "category": "access-control",
+    "title": "Shared Bridge Workstation",
+    "caption": "ECDIS console with multiple USB devices plugged in and sticky notes \u2014 poor access hygiene.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 10
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/shared-bridge-workstation.png",
+      "alt": "Shared bridge workstation risk"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "mfa-shipboard-login",
+    "category": "access-control",
+    "title": "MFA Shipboard Login",
+    "caption": "Officer authenticating at a shipboard terminal with password and phone 2FA code.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 10
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/mfa-shipboard-login.png",
+      "alt": "MFA shipboard login"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "nist-purdue-ship",
+    "category": "frameworks-standards",
+    "title": "NIST Purdue Model on Ship",
+    "caption": "Isometric ship cutaway mapping Purdue levels 0\u20133 with firewall conduit between zones.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 8
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/nist-purdue-ship.png",
+      "alt": "NIST Purdue model on ship"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
   }
 ];
