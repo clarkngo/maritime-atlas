@@ -4,3 +4,6 @@ images/inbox/*
 !images/inbox/manifest.json
 !images/inbox/GENERATION.md
 images/inbox/done/
+
+.DS_Store
+**/.DS_Store
