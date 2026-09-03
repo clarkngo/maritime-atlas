@@ -169,8 +169,8 @@
       "id": "ballast-control-station",
       "category": "engine-propulsion",
       "title": "Ballast Control Station",
-      "caption": "Engine control room console showing ballast system diagram, tank levels, and pump status.",
-      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "caption": "Closed engine control room with ballast mimic panel, tank level indicators, and pump status \u2014 not an open machinery space.",
+      "attribution": "",
       "visualType": "illustration",
       "sources": [
         {
@@ -178,7 +178,7 @@
           "lesson": 6
         }
       ],
-      "alt": "Ballast control station"
+      "alt": "Ballast control station in engine control room"
     },
     {
       "source": "",
@@ -186,7 +186,7 @@
       "category": "threats-incidents",
       "title": "GPS Spoofing \u2014 Concept Illustration",
       "caption": "Educational scene showing a vessel's true position diverging from a falsified GNSS report.",
-      "attribution": "",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
       "visualType": "illustration",
       "sources": [
         {
@@ -202,7 +202,7 @@
       "category": "network-protocol",
       "title": "Shipboard OT Security Zones",
       "caption": "Color-coded zones aboard a generic vessel showing IT, OT, and DMZ network segmentation.",
-      "attribution": "",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
       "visualType": "illustration",
       "sources": [
         {
@@ -222,7 +222,7 @@
       "category": "safety-emergency",
       "title": "Lifeboat Muster Drill",
       "caption": "Crew in life jackets mustering at enclosed lifeboat davits during a safety drill.",
-      "attribution": "",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
       "visualType": "illustration",
       "sources": [
         {
@@ -238,7 +238,7 @@
       "category": "network-protocol",
       "title": "Ship Communications Room",
       "caption": "Generic shipboard server and network rack room with switches and cable management.",
-      "attribution": "",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
       "visualType": "illustration",
       "sources": [
         {
@@ -247,6 +247,62 @@
         }
       ],
       "alt": "Ship communications room"
+    },
+    {
+      "source": "",
+      "id": "ecdis-radar-workstation",
+      "category": "bridge-navigation",
+      "title": "ECDIS & Radar Workstation",
+      "caption": "Generic bridge navigation console with ECDIS chart display and radar PPI side by side.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 4
+        },
+        {
+          "course": "mot",
+          "lesson": 3
+        }
+      ],
+      "alt": "ECDIS and radar workstation"
+    },
+    {
+      "source": "",
+      "id": "isps-security-patrol",
+      "category": "safety-emergency",
+      "title": "ISPS Security Patrol",
+      "caption": "Night patrol on a ship gangway with access control gate and heightened security lighting.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 7
+        },
+        {
+          "course": "mof",
+          "lesson": 11
+        }
+      ],
+      "alt": "ISPS security patrol at gangway"
+    },
+    {
+      "source": "",
+      "id": "epirb-liferaft-stowage",
+      "category": "safety-emergency",
+      "title": "EPIRB & Liferaft Stowage",
+      "caption": "Deck-house wall stowage of liferaft canister, EPIRB, and life ring \u2014 SOLAS equipment reference.",
+      "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026.",
+      "visualType": "illustration",
+      "sources": [
+        {
+          "course": "mof",
+          "lesson": 11
+        }
+      ],
+      "alt": "Liferaft canister, EPIRB, and life ring"
     }
   ]
 }

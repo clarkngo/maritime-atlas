@@ -880,20 +880,146 @@ var ATLAS_ENTRIES = [
     "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
   },
   {
-    "id": "ballast-control-station",
-    "category": "engine-propulsion",
-    "title": "Ballast Control Station",
-    "caption": "Engine control room console showing ballast system diagram, tank levels, and pump status.",
+    "id": "gps-spoofing-concept",
+    "category": "threats-incidents",
+    "title": "GPS Spoofing \u2014 Concept Illustration",
+    "caption": "Educational scene showing a vessel's true position diverging from a falsified GNSS report.",
     "sources": [
       {
-        "course": "mof",
+        "course": "mot",
         "lesson": 6
       }
     ],
     "visual": {
       "type": "img",
-      "src": "images/ballast-control-station.png",
-      "alt": "Ballast control station"
+      "src": "images/gps-spoofing-concept.png",
+      "alt": "GPS spoofing concept"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "shipboard-ot-zones",
+    "category": "network-protocol",
+    "title": "Shipboard OT Security Zones",
+    "caption": "Color-coded zones aboard a generic vessel showing IT, OT, and DMZ network segmentation.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 2
+      },
+      {
+        "course": "mot",
+        "lesson": 4
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/shipboard-ot-zones.png",
+      "alt": "Shipboard OT security zones"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "lifeboat-muster-drill",
+    "category": "safety-emergency",
+    "title": "Lifeboat Muster Drill",
+    "caption": "Crew in life jackets mustering at enclosed lifeboat davits during a safety drill.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 11
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/lifeboat-muster-drill.png",
+      "alt": "Lifeboat muster drill"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "ship-comms-room",
+    "category": "network-protocol",
+    "title": "Ship Communications Room",
+    "caption": "Generic shipboard server and network rack room with switches and cable management.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 4
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/ship-comms-room.png",
+      "alt": "Ship communications room"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "ecdis-radar-workstation",
+    "category": "bridge-navigation",
+    "title": "ECDIS & Radar Workstation",
+    "caption": "Generic bridge navigation console with ECDIS chart display and radar PPI side by side.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 4
+      },
+      {
+        "course": "mot",
+        "lesson": 3
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/ecdis-radar-workstation.png",
+      "alt": "ECDIS and radar workstation"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "isps-security-patrol",
+    "category": "safety-emergency",
+    "title": "ISPS Security Patrol",
+    "caption": "Night patrol on a ship gangway with access control gate and heightened security lighting.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 7
+      },
+      {
+        "course": "mof",
+        "lesson": 11
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/isps-security-patrol.png",
+      "alt": "ISPS security patrol at gangway"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "epirb-liferaft-stowage",
+    "category": "safety-emergency",
+    "title": "EPIRB & Liferaft Stowage",
+    "caption": "Deck-house wall stowage of liferaft canister, EPIRB, and life ring \u2014 SOLAS equipment reference.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 11
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/epirb-liferaft-stowage.png",
+      "alt": "Liferaft canister, EPIRB, and life ring"
     },
     "visualType": "illustration",
     "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."

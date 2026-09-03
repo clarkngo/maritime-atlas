@@ -15,12 +15,12 @@ Append to every prompt:
 | Metric | Count |
 |--------|------:|
 | **Target illustrations** | 35 |
-| **Published on site** | 11 |
-| **In manifest, not yet generated** | 4 |
-| **Not yet in manifest** | 20 |
+| **Published on site** | 17 |
+| **Needs re-generation** | 1 (`ballast-control-station`) |
+| **Not yet generated** | 17 |
 | **SVG schematics (separate)** | 35 |
 
-**Progress:** 11 / 35 illustrations (31%)
+**Progress:** 17 / 35 illustrations (49%)
 
 ### By category
 
@@ -28,22 +28,20 @@ Append to every prompt:
 |----------|-----:|----------:|
 | Vessel Types & Anatomy | 3 | 0 |
 | Ports & Terminal Operations | 4 | 0 |
-| Bridge & Navigation Systems | 2 | 1 |
+| Bridge & Navigation Systems | 3 | 0 |
 | Cargo & Stowage | 0 | 3 |
-| Engine Room, Propulsion & Ballast | 2 | 1 |
-| Network & Protocol Architecture | 0 | 4 |
+| Engine Room, Propulsion & Ballast | 1 | 2 |
+| Network & Protocol Architecture | 2 | 2 |
 | Industry & Commercial Structure | 0 | 2 |
 | Regulatory & Governance | 0 | 2 |
-| Threats & Incidents | 0 | 3 |
+| Threats & Incidents | 1 | 2 |
 | Access Control & Identity | 0 | 2 |
-| Safety & Emergency Systems | 0 | 3 |
+| Safety & Emergency Systems | 3 | 0 |
 | Frameworks & Standards Comparison | 0 | 2 |
 
 ---
 
 ## Published (on site)
-
-These are live in `images/` and `js/gallery-data.js`.
 
 | ID | File | Category | Title |
 |----|------|----------|-------|
@@ -53,44 +51,57 @@ These are live in `images/` and `js/gallery-data.js`.
 | `oil-tanker-profile` | `images/oil-tanker-profile.png` | vessel-types | Oil Tanker — Side Profile |
 | `bridge-interior-modern` | `images/bridge-interior-modern.png` | bridge-navigation | Modern Ship Bridge Interior |
 | `bridge-team-conning` | `images/bridge-team-conning.png` | bridge-navigation | Bridge Team at Conning |
+| `ecdis-radar-workstation` | `images/ecdis-radar-workstation.png` | bridge-navigation | ECDIS & Radar Workstation |
 | `sts-crane-operations` | `images/sts-crane-operations.png` | ports-terminals | STS Crane Operations |
 | `dry-bulk-terminal` | `images/dry-bulk-terminal.png` | ports-terminals | Dry Bulk Terminal |
 | `liquid-bulk-terminal` | `images/liquid-bulk-terminal.png` | ports-terminals | Liquid Bulk Terminal |
 | `engine-room-overview` | `images/engine-room-overview.png` | engine-propulsion | Engine Room Overview |
-| `ballast-control-station` | `images/ballast-control-station.png` | engine-propulsion | Ballast Control Station |
+| `gps-spoofing-concept` | `images/gps-spoofing-concept.png` | threats-incidents | GPS Spoofing — Concept Illustration |
+| `shipboard-ot-zones` | `images/shipboard-ot-zones.png` | network-protocol | Shipboard OT Security Zones |
+| `lifeboat-muster-drill` | `images/lifeboat-muster-drill.png` | safety-emergency | Lifeboat Muster Drill |
+| `isps-security-patrol` | `images/isps-security-patrol.png` | safety-emergency | ISPS Security Patrol |
+| `epirb-liferaft-stowage` | `images/epirb-liferaft-stowage.png` | safety-emergency | EPIRB & Liferaft Stowage |
+| `ship-comms-room` | `images/ship-comms-room.png` | network-protocol | Ship Communications Room |
 
 ---
 
-## Next up (in `manifest.json`, not generated)
+## Needs re-generation (removed from site)
 
-Set `source` in `manifest.json` when you drop the file in this folder, then run `python3 scripts/process-intake.py` or ask Cursor to *process the inbox*.
+| ID | Filename | Why removed |
+|----|----------|-------------|
+| `ballast-control-station` | `ballast-control-station.png` | Reused open engine-room background; ballast control belongs in a closed ECR |
+
+### Replacement prompt — `ballast-control-station`
+
+```
+Interior of a generic ship engine control room (ECR), closed room with grey walls
+and fluorescent lighting — NOT an open machinery space. Foreground: ballast control
+console with tank mimic diagram, vertical tank level indicators, pump start/stop
+status lights, and one large red emergency stop. One or two officers in coveralls
+or white shirts at the console. Background through a small window only: hint of
+engine room, not the main focus. No main engine, no propeller shaft, no open
+walkways over machinery. Educational maritime textbook illustration. No logos,
+no vessel names, no readable proprietary brands. 16:9 landscape.
+```
+
+Also append the standard suffix above.
+
+---
+
+## Next up (recommended batch)
 
 | Priority | ID | Filename | Category |
 |--------:|----|----------|----------|
-| 1 | `gps-spoofing-concept` | `gps-spoofing-concept.png` | threats-incidents |
-| 2 | `shipboard-ot-zones` | `shipboard-ot-zones.png` | network-protocol |
-| 3 | `lifeboat-muster-drill` | `lifeboat-muster-drill.png` | safety-emergency |
-| 4 | `ship-comms-room` | `ship-comms-room.png` | network-protocol |
-
-### Prompts (next 4)
-
-**`gps-spoofing-concept`** — Split-scene educational illustration: ship on calm sea with two ghosted position markers on water showing true vs falsified GNSS position, subtle red/green indicators. Abstract, not a real chart.
-
-**`shipboard-ot-zones`** — Semi-diagrammatic ship cutaway with color-coded zones: bridge IT, engine OT, crew network, DMZ firewall cabinet between zones. Educational cybersecurity reference, flat infographic overlay style.
-
-**`lifeboat-muster-drill`** — Crew in life jackets mustering at generic enclosed lifeboat davits on ship deck, calm weather drill scene, safety-focused educational illustration.
-
-**`ship-comms-room`** — Small shipboard IT rack room: network switches, patch panels, cable trays, locked cabinet, clean industrial lighting. No brand logos on equipment.
+| 1 | `ballast-control-station` | `ballast-control-station.png` | engine-propulsion *(re-gen)* |
+| 2 | `container-hold-cutaway` | `container-hold-cutaway.png` | cargo-stowage |
+| 3 | `imdg-containers-deck` | `imdg-containers-deck.png` | cargo-stowage |
+| 4 | `bill-of-lading-desk` | `bill-of-lading-desk.png` | cargo-stowage |
+| 5 | `ais-spoofing-radar` | `ais-spoofing-radar.png` | threats-incidents |
+| 6 | `ransomware-phishing-path` | `ransomware-phishing-path.png` | threats-incidents |
 
 ---
 
-## Still to generate (add to manifest when ready)
-
-### Bridge & Navigation Systems
-
-| ID | Filename | Prompt |
-|----|----------|--------|
-| `ecdis-radar-workstation` | `ecdis-radar-workstation.png` | Close-up of generic maritime navigation workstations on a bridge: ECDIS chart display and radar PPI side by side, simplified symbology. |
+## Still to generate
 
 ### Cargo & Stowage
 
@@ -104,6 +115,7 @@ Set `source` in `manifest.json` when you drop the file in this folder, then run 
 
 | ID | Filename | Prompt |
 |----|----------|--------|
+| `ballast-control-station` | `ballast-control-station.png` | *(See replacement prompt above — closed ECR only)* |
 | `watertight-door-passage` | `watertight-door-passage.png` | Corridor aboard a generic merchant ship with a heavy watertight steel door, dogs/latches visible, grated deck, overhead pipes. |
 
 ### Network & Protocol Architecture
@@ -141,13 +153,6 @@ Set `source` in `manifest.json` when you drop the file in this folder, then run 
 | `shared-bridge-workstation` | `shared-bridge-workstation.png` | Single generic ECDIS workstation on a ship bridge with multiple USB devices plugged in, sticky notes — visual metaphor for poor access hygiene. |
 | `mfa-shipboard-login` | `mfa-shipboard-login.png` | Officer authenticating at a shipboard terminal: password field blurred, phone showing generic 2FA code shape, engine control room in background. |
 
-### Safety & Emergency Systems
-
-| ID | Filename | Prompt |
-|----|----------|--------|
-| `isps-security-patrol` | `isps-security-patrol.png` | Night scene: security officer with flashlight patrolling ship gangway, heightened security lighting, access control barrier. |
-| `epirb-liferaft-stowage` | `epirb-liferaft-stowage.png` | Still life on ship deck house wall: orange liferaft canister, EPIRB mount, life ring — SOLAS equipment educational reference. |
-
 ### Frameworks & Standards Comparison
 
 | ID | Filename | Prompt |
@@ -170,6 +175,7 @@ Set `source` in `manifest.json` when you drop the file in this folder, then run 
 
 ## Notes
 
-- **Skipped duplicates in inbox:** Two extra engine-room Gemini outputs were not published (near-duplicates of `engine-room-overview`).
-- **Schematics:** 35 SVG diagrams in `svg/` cover diagram/flow content; illustrations supplement scenes where raster helps.
-- **Categories fully illustrated:** Vessel Types, Ports & Terminals (for now).
+- **Removed 2026-09-02:** `ballast-control-station` — wrong setting (open engine room reuse). Manifest slot kept for replacement.
+- **Latest batch:** ECDIS/radar workstation, ISPS security patrol, EPIRB & liferaft stowage.
+- **Categories complete (illustrations):** Vessel Types, Ports & Terminals, Bridge & Navigation, Safety & Emergency.
+- **Schematics:** 35 SVG diagrams in `svg/` remain separate from these illustrations.
