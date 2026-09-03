@@ -15,12 +15,12 @@ Append to every prompt:
 | Metric | Count |
 |--------|------:|
 | **Target illustrations** | 35 |
-| **Published on site** | 17 |
+| **Published on site** | 20 |
 | **Needs re-generation** | 1 (`ballast-control-station`) |
-| **Not yet generated** | 17 |
+| **Not yet generated** | 14 |
 | **SVG schematics (separate)** | 35 |
 
-**Progress:** 17 / 35 illustrations (49%)
+**Progress:** 20 / 35 illustrations (57%)
 
 ### By category
 
@@ -33,8 +33,8 @@ Append to every prompt:
 | Engine Room, Propulsion & Ballast | 1 | 2 |
 | Network & Protocol Architecture | 2 | 2 |
 | Industry & Commercial Structure | 0 | 2 |
-| Regulatory & Governance | 0 | 2 |
-| Threats & Incidents | 1 | 2 |
+| Regulatory & Governance | 2 | 0 |
+| Threats & Incidents | 2 | 1 |
 | Access Control & Identity | 0 | 2 |
 | Safety & Emergency Systems | 3 | 0 |
 | Frameworks & Standards Comparison | 0 | 2 |
@@ -57,11 +57,14 @@ Append to every prompt:
 | `liquid-bulk-terminal` | `images/liquid-bulk-terminal.png` | ports-terminals | Liquid Bulk Terminal |
 | `engine-room-overview` | `images/engine-room-overview.png` | engine-propulsion | Engine Room Overview |
 | `gps-spoofing-concept` | `images/gps-spoofing-concept.png` | threats-incidents | GPS Spoofing — Concept Illustration |
+| `ais-spoofing-radar` | `images/ais-spoofing-radar.png` | threats-incidents | AIS Spoofing on Radar |
 | `shipboard-ot-zones` | `images/shipboard-ot-zones.png` | network-protocol | Shipboard OT Security Zones |
 | `lifeboat-muster-drill` | `images/lifeboat-muster-drill.png` | safety-emergency | Lifeboat Muster Drill |
 | `isps-security-patrol` | `images/isps-security-patrol.png` | safety-emergency | ISPS Security Patrol |
 | `epirb-liferaft-stowage` | `images/epirb-liferaft-stowage.png` | safety-emergency | EPIRB & Liferaft Stowage |
 | `ship-comms-room` | `images/ship-comms-room.png` | network-protocol | Ship Communications Room |
+| `port-state-control-inspection` | `images/port-state-control-inspection.png` | regulatory-governance | Port State Control Inspection |
+| `classification-survey-deck` | `images/classification-survey-deck.png` | regulatory-governance | Classification Survey on Deck |
 
 ---
 
@@ -96,8 +99,9 @@ Also append the standard suffix above.
 | 2 | `container-hold-cutaway` | `container-hold-cutaway.png` | cargo-stowage |
 | 3 | `imdg-containers-deck` | `imdg-containers-deck.png` | cargo-stowage |
 | 4 | `bill-of-lading-desk` | `bill-of-lading-desk.png` | cargo-stowage |
-| 5 | `ais-spoofing-radar` | `ais-spoofing-radar.png` | threats-incidents |
-| 6 | `ransomware-phishing-path` | `ransomware-phishing-path.png` | threats-incidents |
+| 5 | `ransomware-phishing-path` | `ransomware-phishing-path.png` | threats-incidents |
+| 6 | `shared-bridge-workstation` | `shared-bridge-workstation.png` | access-control |
+| 7 | `mfa-shipboard-login` | `mfa-shipboard-login.png` | access-control |
 
 ---
 
@@ -132,18 +136,10 @@ Also append the standard suffix above.
 | `chartering-office-meeting` | `chartering-office-meeting.png` | Professional meeting in a generic shipping office: two people reviewing a voyage estimate on a screen showing abstract route map. |
 | `port-agent-harbor-launch` | `port-agent-harbor-launch.png` | Harbor launch approaching a generic cargo ship at anchor, agent with document case, overcast morning light. |
 
-### Regulatory & Governance
-
-| ID | Filename | Prompt |
-|----|----------|--------|
-| `port-state-control-inspection` | `port-state-control-inspection.png` | Generic PSC inspector with clipboard on ship gangway, officer escorting, lifeboat and safety equipment in background. |
-| `classification-survey-deck` | `classification-survey-deck.png` | Surveyor in hard hat examining deck plating with ultrasonic gauge, generic bulk carrier deck, hatch coaming in background. |
-
 ### Threats & Incidents
 
 | ID | Filename | Prompt |
 |----|----------|--------|
-| `ais-spoofing-radar` | `ais-spoofing-radar.png` | Generic radar display with one vessel target duplicated in wrong location, bridge reflection in screen glass. Cyber-navigation threat concept. |
 | `ransomware-phishing-path` | `ransomware-phishing-path.png` | Educational infographic-style scene: laptop with suspicious email icon, arrow through ship network diagram on whiteboard to engine control monitor with lock icon. |
 
 ### Access Control & Identity
@@ -175,7 +171,7 @@ Also append the standard suffix above.
 
 ## Notes
 
-- **Removed 2026-09-02:** `ballast-control-station` — wrong setting (open engine room reuse). Manifest slot kept for replacement.
-- **Latest batch:** ECDIS/radar workstation, ISPS security patrol, EPIRB & liferaft stowage.
-- **Categories complete (illustrations):** Vessel Types, Ports & Terminals, Bridge & Navigation, Safety & Emergency.
+- **Removed:** `ballast-control-station` — wrong setting (open engine room reuse). Manifest slot kept for replacement.
+- **Latest batch:** AIS spoofing radar, PSC inspection, classification survey on deck.
+- **Categories complete (illustrations):** Vessel Types, Ports, Bridge & Navigation, Safety & Emergency, Regulatory & Governance.
 - **Schematics:** 35 SVG diagrams in `svg/` remain separate from these illustrations.
