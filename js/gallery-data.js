@@ -1023,5 +1023,62 @@ var ATLAS_ENTRIES = [
     },
     "visualType": "illustration",
     "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "ais-spoofing-radar",
+    "category": "threats-incidents",
+    "title": "AIS Spoofing on Radar",
+    "caption": "Bridge radar display showing a duplicated spoofed target alongside the true contact.",
+    "sources": [
+      {
+        "course": "mot",
+        "lesson": 6
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/ais-spoofing-radar.png",
+      "alt": "AIS spoofing on radar display"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "port-state-control-inspection",
+    "category": "regulatory-governance",
+    "title": "Port State Control Inspection",
+    "caption": "PSC inspector with clipboard on the gangway, escorted by a ship officer during a port call.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 7
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/port-state-control-inspection.png",
+      "alt": "Port state control inspection on gangway"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
+  },
+  {
+    "id": "classification-survey-deck",
+    "category": "regulatory-governance",
+    "title": "Classification Survey on Deck",
+    "caption": "Surveyor using an ultrasonic thickness gauge on deck plating during a class survey.",
+    "sources": [
+      {
+        "course": "mof",
+        "lesson": 7
+      }
+    ],
+    "visual": {
+      "type": "img",
+      "src": "images/classification-survey-deck.png",
+      "alt": "Classification survey ultrasonic thickness check"
+    },
+    "visualType": "illustration",
+    "attribution": "Generated with Google Gemini, reviewed by Clark Ngo, Sep 2026."
   }
 ];
